@@ -1,0 +1,52 @@
+.FahionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  align-items: center;
+}
+
+.FashionContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.FashionContent h3 {
+  display: flex;
+  justify-content: center;
+  flex: 0.5;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.FashionContent p {
+  display: flex;
+  justify-content: flex-start;
+  flex: 0.5;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.ImageContainer {
+  background: url("./CoverImage.png");
+  width: 1110px;
+  height: 400px;
+  resize: none;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .ImageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .FashionContent {
+    padding-bottom: 15px;
+  }
+  .FashionContent h3 {
+    font-size: 30px;
+    padding-right: 15px;
+  }
+}

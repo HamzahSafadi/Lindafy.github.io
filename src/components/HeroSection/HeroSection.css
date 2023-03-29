@@ -1,0 +1,38 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.HeroContent h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 70px;
+  color: #18191f;
+}
+
+.HeroContent button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  width: 154px;
+  height: 48px;
+  background: #8c30f5;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .HeroContent h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}

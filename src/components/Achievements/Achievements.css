@@ -1,0 +1,74 @@
+.AchContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 40px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .AchContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .AchHeader {
+    margin-bottom: 30px;
+  }
+  .Counters {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.AchHeader {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.AchHeader h2 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #18191f;
+}
+
+.AchHeader p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #18191f;
+}
+.CounterContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex: 0.5;
+  color: #18191f;
+}
+
+@media screen and (max-width: 768px) {
+  .CardsContainer {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .Card {
+    margin-bottom: 25px;
+  }
+}
+
+.CounterCard {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.CounterCard h4 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.CounterCard p {
+  font-size: 16px;
+  font-weight: 400;
+}

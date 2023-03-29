@@ -1,0 +1,78 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 50px;
+  background: #0b0d17;
+}
+
+.FooterLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 0.75;
+}
+
+.FooterLinks li {
+  color: #ffffff;
+}
+
+.FooterLinks ul {
+  list-style: none;
+}
+
+.FirstLinks {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.FirstLinks li {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0 1rem;
+}
+
+.SecondLinks {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.SecondLinks li {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.FooterGetApp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  align-items: center;
+  color: #ffffff;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .FooterGetApp {
+    display: none;
+  }
+  .FooterContainer {
+    padding: 50px 0;
+  }
+  .FooterLinks {
+    flex: 1;
+  }
+}
