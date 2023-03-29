@@ -9,43 +9,31 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div className="NavbarContainer">
-        <span className="NavLogo">
+      <nav className="NavbarContainer">
+        <div className="NavLogo">
           <Logo />
           <p>Landify</p>
-        </span>
-        <div className="NavMenu">
-          <ul>
-            <li>About</li>
-          </ul>
-          <ul>
-            <li>Products</li>
-          </ul>
-          <ul>
-            <li>Pricing</li>
-          </ul>
-          <ul>
-            <li>Blog</li>
-          </ul>
-          <ul>
-            <li>Jobs</li>
-          </ul>
-          <ul>
-            <li>
-              More
-              <span style={{ marginLeft: 10 }}>
-                <MoreIcon />
-              </span>
-            </li>
-          </ul>
         </div>
+        <ul className="NavMenu">
+          <li>About</li>
+          <li>Products</li>
+          <li>Pricing</li>
+          <li>Blog</li>
+          <li>Jobs</li>
+          <li>
+            More
+            <span style={{ marginLeft: 10 }}>
+              <MoreIcon />
+            </span>
+          </li>
+        </ul>
         <div className="NavButtons">
           <GooglePlay />
           <span style={{ paddingLeft: 12 }}>
             <AppleStore />
           </span>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

@@ -3,12 +3,13 @@
   justify-content: space-evenly;
   height: 72px;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 2rem;
   max-width: 1600px;
+  align-items: center;
 }
 
 .NavLogo {
-  justify-self: flex-start;
+  margin-right: auto;
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
@@ -18,8 +19,8 @@
 
 .NavLogo p {
   font-weight: 700;
-  font-size: 25px;
-  margin-left: 10px;
+  font-size: 1.25rem; /* 20px in rem */
+  margin-left: 1rem;
 }
 
 .NavMenu {
@@ -27,24 +28,29 @@
   align-items: center;
   list-style: none;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 .NavMenu li {
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   height: 100%;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem; /* 20px in rem */
+  margin: 0.25rem;
 }
 
 .NavButtons {
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,8 +61,33 @@
     max-width: 800px;
     align-items: center;
     justify-content: center;
+    height: auto;
+    padding: 1rem;
   }
   .NavLogo {
-    margin: 0;
+    margin-left: 0;
+  }
+  .NavLogo p {
+    font-size: 1rem;
+  }
+  .NavMenu {
+    justify-content: center;
+  }
+  .NavMenu li {
+    font-size: 0.875rem; /* 14px in rem */
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .NavButtons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .NavMenu li {
+    padding: 0.2rem;
   }
 }

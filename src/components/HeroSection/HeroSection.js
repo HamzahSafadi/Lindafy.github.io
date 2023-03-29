@@ -10,7 +10,7 @@ function HeroSection() {
         <h1>Get More Done.</h1>
         <button>Get Started</button>
       </div>
-      <div>
+      <div className="HeroImage">
         <MobileMockup />
       </div>
     </div>
