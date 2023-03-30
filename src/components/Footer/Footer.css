@@ -70,9 +70,23 @@
     display: none;
   }
   .FooterContainer {
-    padding: 50px 0;
+    /* padding: 50px 0;  */
+    padding: 0;
   }
   .FooterLinks {
     flex: 1;
+  }
+  .SecondLinks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .SecondLinks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
   }
 }

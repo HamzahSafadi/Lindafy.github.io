@@ -32,7 +32,7 @@
 
 .ImageContainer {
   background: url("./CoverImage.png");
-  width: 1110px;
+  width: 1000px;
   height: 400px;
   resize: none;
   background-repeat: no-repeat;
@@ -53,7 +53,13 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1000px) {
+  .ImageContainer {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .ImageContainer {
     width: 415px;
   }
