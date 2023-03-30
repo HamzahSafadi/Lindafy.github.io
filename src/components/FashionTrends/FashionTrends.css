@@ -52,3 +52,9 @@
     padding-right: 15px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .ImageContainer {
+    width: 415px;
+  }
+}

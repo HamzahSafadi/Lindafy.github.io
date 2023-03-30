@@ -91,3 +91,19 @@
     padding: 0.2rem;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .NavbarContainer {
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+  }
+  .NavMenu li {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .NavLogo {
+    display: none;
+  }
+}

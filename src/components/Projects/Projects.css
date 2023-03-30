@@ -49,3 +49,9 @@
     font-size: 38px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .ProjectImages {
+    flex-direction: column;
+  }
+}
