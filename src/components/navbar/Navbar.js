@@ -1,6 +1,5 @@
 import React from "react";
 import AppleStore from "../../assets/AppleStore";
-import BackgroundTop from "../../assets/BackgroundTop";
 import GooglePlay from "../../assets/GooglePlay";
 import Logo from "../../assets/Logo";
 import MoreIcon from "../../assets/MoreIcon";
