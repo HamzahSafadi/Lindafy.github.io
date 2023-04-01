@@ -7,6 +7,7 @@
 
 .HeroContent {
   display: flex;
+  flex-direction: column;
 }
 
 .HeroContent h1 {
