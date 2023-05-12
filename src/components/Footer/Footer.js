@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="FooterContainer">
       <div className="FooterLinks">
-        <div style={{ paddingLeft: 20 }}>
+        <div style={{ paddingLeft: 15 }}>
           <Logo />
         </div>
         <div className="FirstLinks">
